@@ -2,7 +2,9 @@
 C'est un simple site développé en React pour rechercher des programmes pour la calculatrice Numworks.
 Nous ne sommes pas affilié à Numworks.
 <br> Pour installer votre propre backend, voir [Numworks Search Server](https://github.com/oriionn/numworks-search-server).
+
 ![Numworks Search](docs/preview.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foriionn%2Fnumworks-search)
 
 ## Installation
 1. Cloner le dépôt
