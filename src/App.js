@@ -32,10 +32,18 @@ function App() {
                 <span>Aucun résultat.</span>
               </div>
             `;
+          } else if (data.message === "Request failed with status code 429") {
+            return results.innerHTML = `
+              <div class="error">
+                <span>Erreur lors de la recherche.</span>
+                <span>Si la limite de nombre de recherche par jour a été franchi, utilisez votre propre clé d'API, cliquez <a href="https://google.com">ici</a> pour utiliser votre propre clé API.</span>
+                <span>Vous pouvez aussi également regarder ce tutoriel, disponible <a href="https://google.com">ici</a>, pour utiliser votre propre backend.</span>
+              </div>
+            `;
           } else {
             return results.innerHTML = `
               <div class="error">
-                <span>Erreur lors de la recherche du à une erreur interde au serveur.</span>
+                <span>Erreur lors de la recherche du à une erreur interne au serveur.</span>
                 <span>Contactez l'administrateur du site pour en savoir plus.</span>
               </div>
             `;
