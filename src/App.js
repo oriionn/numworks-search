@@ -90,7 +90,7 @@ function App() {
         </div>
       </div>
       <footer>
-        <span>Powered by <a target="_blank" rel="noreferrer" href="https://google.com">Google</a> • Nous ne sommes pas affilié à <a target="_blank" rel="noreferrer" href="https://numworks.com">Numworks</a> • Des tutoriels sont disponibles <a href="https://google.com">ici</a> pour utiliser votre propre clé d'API Google sur le site.</span>
+        <span>Powered by <a target="_blank" rel="noreferrer" href="https://google.com">Google</a> • Nous ne sommes pas affilié à <a target="_blank" rel="noreferrer" href="https://numworks.com">Numworks</a> • Des tutoriels sont disponibles <a target="_blank" rel="noreferrer" href="https://google.com">ici</a> pour utiliser votre propre clé d'API Google sur le site. • <a target="_blank" rel="noreferrer" href="https://github.com/oriionn/numworks-search">Source Code</a></span>
       </footer>
     </div>
   );
