@@ -1,5 +1,7 @@
 # Numworks Search
 C'est un simple site développé en React pour rechercher des programmes pour la calculatrice Numworks.
+Nous ne sommes pas affilié à Numworks.
+<br> Pour installer votre propre backend, voir [Numworks Search Server](https://github.com/oriionn/numworks-search-server).
 ![Numworks Search](docs/preview.png)
 
 ## Installation
