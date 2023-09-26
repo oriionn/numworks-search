@@ -1,38 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Mooli', sans-serif;
+}
+
+body {
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
 .App {
+  width: 50vw;
+}
+
+header {
+  margin-top: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header input {
+  width: 40vw;
+  font-size: 1vw;
+  color: black;
+  border: 1px solid #037971;
+  padding: 15px;
+
+  outline: none;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header button {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 1vw;
+  padding: 15px;
+
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  color: white;
+  background: #FFB734;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.results {
+  margin-top: 20px;
+}
+
+.result {
+  font-size: 1vw;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border: 1px #037971 solid;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.result__name {
+  width: 1vw;
+  text-wrap: wrap;
+}
+
+.error {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.error span {
+  color: red;
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a {
+  color: #FFB734;
+}
+
+footer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (max-width : 500px) {
+  header input, header button, .result, .result__name {
+    font-size: 3vw;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App {
+    width: 80vw;
+  }
+
+  .result__author {
+    display: none;
   }
 }
